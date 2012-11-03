@@ -135,7 +135,7 @@ img#bg_body {
     width: /*960*/880px;
     padding: 15px 30px 0 50px;
     margin: 0 auto;
-    background: url(../img/bg_wrapper.png) repeat;
+    background: url(../img/bg_wrapper2.png) repeat;
     position: relative;
     z-index: 2;
 }
@@ -179,13 +179,19 @@ img#bg_body {
 
 .menu li {
     float: left;
+    margin: 0 12px;
+    padding-bottom: 7px;
 }
 
 .menu li a {
     font-size: 18px;
     font-weight: bold;
     text-transform: lowercase;
-    padding: 0 12px;
+    padding-bottom: 7px;
+}
+
+.menu li:hover {
+    background: url(../img/border_menu_hover.png) 0 100% repeat-x;
 }
 
 .social-container {

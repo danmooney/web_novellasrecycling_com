@@ -19,7 +19,7 @@
         </div>
         <div class="social-container">
             <div class="social" id="twitter">
-                <a href="#" target="_blank"></a>
+                <a href="https://twitter.com/antoncoviello" target="_blank"></a>
             </div>
             <div class="social" id="facebook">
                 <a href="#" target="_blank"></a>
