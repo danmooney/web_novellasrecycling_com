@@ -118,6 +118,12 @@ fieldset, legend {
     width: 100%;
     position: fixed;
     top: -200px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 img#bg_body {
@@ -127,17 +133,44 @@ img#bg_body {
 
 #wrapper {
     width: /*960*/880px;
-    padding: 15px 50px 0 30px;
+    padding: 15px 30px 0 50px;
     margin: 0 auto;
     background: url(../img/bg_wrapper.png) repeat;
     position: relative;
     z-index: 2;
 }
 
+#bg_wrapper_fade {
+    background: url(../img/bg_wrapper_fade.png) repeat-x;
+    width: 960px;
+    margin: 0 auto;
+    height: 98px;
+    position: relative;
+    z-index: 3;
+    margin-left: -50px;
+    margin-top: -15px;
+}
+
+#header {
+    margin-top: -81px;
+    position: relative;
+    z-index: 4;
+}
+
+#header .menu-container {
+    margin-top: -40px;
+}
+
 #logo {
     background: url(../img/logo.png) no-repeat;
     width: 310px;
     height: 85px;
+    float: left;
+    margin-top: 10px;
+}
+
+#logo a {
+    display: block;
 }
 
 .menu {
@@ -153,4 +186,40 @@ img#bg_body {
     font-weight: bold;
     text-transform: lowercase;
     padding: 0 12px;
+}
+
+.social-container {
+    float: right;
+}
+
+.social {
+    width: 27px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.social a {
+    display: block;
+}
+
+.social-container > * {
+    float: left;
+    /*margin: 0 8px;*/
+}
+
+#facebook.social {
+    background-image: url(../img/social/facebook.png);
+}
+
+#facebook.social:hover {
+    background-image: url(../img/social/facebook_hover.png);
+}
+
+#twitter.social {
+    background-image: url(../img/social/twitter.png);
+    margin-right: 10px;
+}
+
+#twitter.social:hover {
+    background-image: url(../img/social/twitter_hover.png);
 }
