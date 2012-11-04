@@ -8,11 +8,13 @@
     <link rel="stylesheet" type="text/css" href="templates/<?= $this->template ?>/css/template.css" />
 </head>
 <body>
-<div id="bg_body_container" unselectable="on">
-    <img id="bg_body" src="templates/<?= $this->template ?>/img/bg_body.jpg" />
+<div id="bg-body-container" unselectable="on">
+    <img id="bg-body" src="templates/<?= $this->template ?>/img/bg_body.jpg" />
 </div>
 <div id="wrapper">
-    <div id="bg_wrapper_fade"></div>
+    <div class="fg-leaf leaf-top-left"></div>
+    <div class="fg_leaf leaf-bottom-right"></div>
+    <div id="bg-wrapper-fade"></div>
     <div id="header">
         <div id="logo">
             <a href="<?= JURI::base() ?>"></a>
@@ -34,10 +36,15 @@
     <div id="content">
         <jdoc:include type="component" />
     </div>
-    <div id="image-cache">
-        <img src="templates/<?= $this->template ?>/img/social/twitter_hover.png" />
-        <img src="templates/<?= $this->template ?>/img/social/facebook_hover.png" />
-    </div>
+    <div class="clr"></div>
+</div><?php // wrapper ?>
+<div id="footer">
+    <div id="bg-footer-ripped"></div>
+    <div id="bg-footer-white"></div>
+</div>
+<div id="image-cache">
+    <img src="templates/<?= $this->template ?>/img/social/twitter_hover.png" />
+    <img src="templates/<?= $this->template ?>/img/social/facebook_hover.png" />
 </div>
 </body>
 </html>
