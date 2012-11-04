@@ -254,6 +254,7 @@ includes/*
 installation/*
 language/en-GB/en-GB.com_finder.ini
 language/en-GB/en-GB.com_jce.xml
+language/en-GB/en-GB.com_jce.ini
 language/en-GB/en-GB.lib_joomla.sys.ini
 language/en-GB/en-GB.finder_cli.ini
 language/en-GB/en-GB.lib_phpmailer.sys.ini

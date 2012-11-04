@@ -34,6 +34,8 @@
     </div>
     <div class="clr"></div>
     <div class="carousel-container">
+        <div class="bg-shadow bg-shadow-top"></div>
+        <div class="bg-shadow bg-shadow-bottom"></div>
         <ul class="carousel">
             <li>
                 <img src="templates/<?= $this->template ?>/img/carousel/1.jpg" />
@@ -43,6 +45,9 @@
             </li>
             <li>
                 <img src="templates/<?= $this->template ?>/img/carousel/3.jpg" />
+            </li>
+            <li>
+                <img src="templates/<?= $this->template ?>/img/carousel/4.jpg" />
             </li>
         </ul>
     </div>

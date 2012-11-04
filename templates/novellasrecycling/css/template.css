@@ -318,16 +318,33 @@ div.carousel-container {
     margin-left: -50px;
     position: relative;
     width: 960px;
-    height: 476px;
+    height: 473px;
     overflow: hidden;
+}
+
+div.carousel-container .bg-shadow {
+    position: absolute;
+    background-repeat: repeat-x;
+    width: 960px;
+    height: 27px;
+    left: 0;
+}
+
+div.carousel-container .bg-shadow.bg-shadow-top {
+    top: 0;
+    background-image: url(../img/bg_carousel_shadow_top.png);
+}
+
+div.carousel-container .bg-shadow.bg-shadow-bottom {
+    bottom: 0;
+    background-image: url(../img/bg_carousel_shadow_bottom.png);
 }
 
 .carousel {
     position: absolute;
-
+    height: 100%;
     /** for testing **/
     width: 9999px;
-
 }
 
 .carousel li {
