@@ -19,6 +19,8 @@ ul, li {
     list-style-position: inside;
     list-style-type: none;
     font-size: 13px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -170,7 +172,7 @@ img#bg-body {
     margin-top: -81px;
     position: relative;
     z-index: 4;
-    margin-bottom: 29px;
+    margin-bottom: 53px;
 }
 
 #header .menu-container {
@@ -293,6 +295,7 @@ img#bg-body {
 
 .fg-leaf {
     position: absolute;
+    z-index: 4;
     background-repeat: no-repeat;
     width: 156px;
     height: 109px;
@@ -300,11 +303,33 @@ img#bg-body {
 
 .fg-leaf.leaf-top-left {
     background-image: url(../img/fg_leaf_top_left.png);
+    left: -60px;
+    top: 74px;
 }
 
 .fg-leaf.leaf-bottom-right {
-    background-image: url(../img/fg-leaf-bottom-right.png);
+    background-image: url(../img/fg_leaf_bottom_right.png);
+    right: -61px;
+    top: 574px;
 }
 
+/* Carousel */
+div.carousel-container {
+    margin-left: -50px;
+    position: relative;
+    width: 960px;
+    height: 476px;
+    overflow: hidden;
+}
 
+.carousel {
+    position: absolute;
 
+    /** for testing **/
+    width: 9999px;
+
+}
+
+.carousel li {
+    float: left;
+}

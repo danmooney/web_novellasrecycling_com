@@ -13,7 +13,7 @@
 </div>
 <div id="wrapper">
     <div class="fg-leaf leaf-top-left"></div>
-    <div class="fg_leaf leaf-bottom-right"></div>
+    <div class="fg-leaf leaf-bottom-right"></div>
     <div id="bg-wrapper-fade"></div>
     <div id="header">
         <div id="logo">
@@ -33,6 +33,19 @@
         </div>
     </div>
     <div class="clr"></div>
+    <div class="carousel-container">
+        <ul class="carousel">
+            <li>
+                <img src="templates/<?= $this->template ?>/img/carousel/1.jpg" />
+            </li>
+            <li>
+                <img src="templates/<?= $this->template ?>/img/carousel/2.jpg" />
+            </li>
+            <li>
+                <img src="templates/<?= $this->template ?>/img/carousel/3.jpg" />
+            </li>
+        </ul>
+    </div>
     <div id="content">
         <jdoc:include type="component" />
     </div>
