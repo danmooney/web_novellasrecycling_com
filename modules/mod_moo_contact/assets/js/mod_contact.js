@@ -1,6 +1,6 @@
 (function($) {
    $(document).ready(function () {
-       new com_pilla.Validator($('#contact-form'), {
+       new com_novellasrecycling.Validator($('#contact-form'), {
            first_name: 'isNotEmpty',
            last_name: 'isNotEmpty',
            email: 'isEmail'

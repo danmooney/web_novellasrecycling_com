@@ -1,5 +1,10 @@
+<?php
+/**
+ * @var $template ModContactTemplate
+ */
+?>
 <div class="thank-you-message">
-    <h2>Thank You</h2>
+    <h1>Thank You</h1>
     <p>&nbsp;</p>
     <p><?= $template::thankYouMessage() ?></p>
 </div>

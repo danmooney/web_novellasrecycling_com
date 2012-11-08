@@ -105,10 +105,10 @@ class ModContactTemplate extends ModContact
         
         $session->set('contact_success', 1);
         
-        require_once(JPATH_SITE . DS . 'administrator' . DS . 'components' . DS . '_moo_component_maker' . DS . 'table.php');
-        $contacts_table = new MooTable('#__moo_contact_submission');
-        $contacts_table->bind($post);
-        $contacts_table->store();
+//        require_once('table.php');
+//        $contacts_table = new MooTable('#__moo_contact_submission');
+//        $contacts_table->bind($post);
+//        $contacts_table->store();
 
         header('Location: http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
         exit();

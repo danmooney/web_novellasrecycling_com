@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var $template ModContactTemplate
+ */
+?>
 <div id="contact-form-container">
     <form id="contact-form" action="" method="post" class="form-validate">
         <?= $template::invalidationMessage() ?>
@@ -8,13 +13,13 @@
             </div>
             <div class="formline">
                 <?php // <label for="last_name">Last Name:</label> ?>
-                <?= $template::input('last_name', null, 'tabindex="3" data-placeholder="Last Name"') ?>
+                <?= $template::input('last_name', null, 'tabindex="2" data-placeholder="Last Name"') ?>
             </div>
         </div>
-        <div class="float-r">
+        <div class="float-<?php // r ?>l">
             <div class="formline">
                 <?php // <label for="phone">Phone:</label> ?>
-                <?= $template::input('phone', null, 'tabindex="2" data-placeholder="Telephone Number"') ?>
+                <?= $template::input('phone', null, 'tabindex="3" data-placeholder="Telephone Number"') ?>
             </div>
             <div class="formline">
                 <?php // <label for="email">E-Mail:</label> ?>

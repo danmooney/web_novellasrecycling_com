@@ -1,5 +1,6 @@
 #contact-form {
     margin-top: 15px;
+    padding-bottom: 200px;
 }
 
 #contact-form h4 {
@@ -47,8 +48,8 @@
 
 #contact-form textarea {
     border: 1px solid #ABABAB;
-    width: 849px;
-    max-width: 849px;
+    width: 400px;
+    max-width: 400px;
     height: 150px;
     margin-top: 6px;
     outline: 0;
@@ -100,11 +101,10 @@
 }
 
 #contact-form #submit-button {
-    width: 125px;
     background: #a5a5a5;
-    padding: 6px 32px;
+    padding: 6px 30px;
     text-transform: uppercase;
-    margin-right: 29px;
+    margin-right: 186px;
 }
 
 #contact-form #submit-button:hover {
@@ -123,4 +123,16 @@ body.contact .bold {
 body.contact .thank-you-message {
     width: 800px;
     text-align: center;
+}
+
+#content #col-l.contact {
+    width: 30%;
+}
+
+#content #col-r.contact {
+    width: 69%;
+}
+
+input.empty, textarea.empty {
+    color: #666;
 }

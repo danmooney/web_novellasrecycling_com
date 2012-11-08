@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="templates/<?= $this->template ?>/js/jquery-1.8.2-min.js"></script>
     <jdoc:include type="head" />
     <link rel="stylesheet" type="text/css" href="templates/<?= $this->template ?>/css/template.css" />
 </head>
