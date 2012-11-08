@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module"
+    version="2.5"
+    client="site"
+    method="upgrade">
+    <name>Moo Digital Contact Form</name>
+    <author>Dan Mooney</author>
+    <creationDate>October 2012</creationDate>
+    <copyright>Copyright (C) 2012 Moo Media Inc.</copyright>
+    <authorEmail>dan.mooney@moodigital.com</authorEmail>
+    <authorUrl>www.moodigital.com</authorUrl>
+    <description>Contact Form</description>
+    <files>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="email_to" type="text" size="100" default="" label="To E-Mail" description="E-Mail to send the form to (use commas for multiple addresses)" />
+                <field name="subject" type="text"  size="100" default="" label="Subject" description="Subject line for E-Mail" />
+                <field name="thank_you" type="textarea" size="100" default="" label="Thank You Text" description="Text to display for successful contact form submission" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,126 @@
+#contact-form {
+    margin-top: 15px;
+}
+
+#contact-form h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px 0 10px;
+}
+
+#contact-form .formline {
+    line-height: 34px;
+    clear: both;
+    margin-bottom: 6px;
+}
+
+#contact-form .formline.radio {
+    line-height: normal;
+    clear: both;
+    margin: 10px 0;
+    margin-left: 95px;
+}
+
+#contact-form .formline.radio label {
+    width: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#contact-form .formline.radio input {
+    width: auto;
+}
+
+#contact-form label {
+    width: 82px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#contact-form input {
+    width: 400px;
+}
+
+#contact-form textarea {
+    border: 1px solid #ABABAB;
+    width: 849px;
+    max-width: 849px;
+    height: 150px;
+    margin-top: 6px;
+    outline: 0;
+}
+
+#contact-form input {
+    border: 1px solid #ABABAB;
+    outline: 0;
+    /*padding: 0 2px;*/
+    line-height: 17px;
+    height: 25px;
+    margin-right: 28px;
+}
+
+#contact-form #submit-button {
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ajax-notice {
+    margin-left: 277px;
+    color: #666;
+    line-height: 31px;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form select
+{
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#contact-form input.invalid,
+#contact-form textarea.invalid,
+#contact-form select.invalid
+{
+    border: 1px solid #F00;
+}
+
+.thank-you {
+    text-align: center !important;
+    margin-left: 0 !important;
+}
+
+#contact-form #submit-button {
+    width: 125px;
+    background: #a5a5a5;
+    padding: 6px 32px;
+    text-transform: uppercase;
+    margin-right: 29px;
+}
+
+#contact-form #submit-button:hover {
+    background: #BEBEBE;
+    color: #000;
+}
+
+body.contact .bold {
+    margin-bottom: 5px;
+}
+
+.invalidate-message.general {
+    margin-bottom: 10px;
+}
+
+body.contact .thank-you-message {
+    width: 800px;
+    text-align: center;
+}
