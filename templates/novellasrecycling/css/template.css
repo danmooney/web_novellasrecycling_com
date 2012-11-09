@@ -343,10 +343,32 @@ div.carousel-container .bg-shadow.bg-shadow-bottom {
 .carousel {
     position: absolute;
     height: 100%;
-    /** for testing **/
-    width: 9999px;
 }
 
 .carousel li {
     float: left;
+}
+
+.navigation-container {
+    text-align: center;
+    margin-left: -50px;
+    width: 960px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation .circle {
+    background: url(../img/button_carousel_nav.png) no-repeat;
+    width:15px;
+    height: 15px;
+    float: left;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.navigation .circle.active {
+    background-image: url(../img/button_carousel_nav_active.png);
+
 }

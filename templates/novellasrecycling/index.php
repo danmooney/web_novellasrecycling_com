@@ -5,6 +5,7 @@
 <html>
 <head>
     <script src="templates/<?= $this->template ?>/js/jquery-1.8.2-min.js"></script>
+    <script src="templates/<?= $this->template ?>/js/jquery.anythingslider-1.8.6-min.js"></script>
     <jdoc:include type="head" />
     <link rel="stylesheet" type="text/css" href="templates/<?= $this->template ?>/css/template.css" />
 </head>
@@ -52,6 +53,9 @@
             </li>
         </ul>
     </div>
+    <div class="navigation-container">
+        <div class="navigation"></div>
+    </div>
     <div id="content">
         <jdoc:include type="component" />
     </div>
@@ -65,5 +69,6 @@
     <img src="templates/<?= $this->template ?>/img/social/twitter_hover.png" />
     <img src="templates/<?= $this->template ?>/img/social/facebook_hover.png" />
 </div>
+<script src="templates/<?= $this->template ?>/js/carousel.js"></script>
 </body>
 </html>
