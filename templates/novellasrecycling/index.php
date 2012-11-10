@@ -26,7 +26,7 @@
                 <a href="https://twitter.com/antoncoviello" target="_blank"></a>
             </div>
             <div class="social" id="facebook">
-                <a href="#" target="_blank"></a>
+                <a href="https://www.facebook.com/pages/Novella-Scrap-Yard/135290503190578" target="_blank"></a>
             </div>
         </div>
         <div class="clr"></div>
@@ -54,6 +54,11 @@
         </ul>
     </div>
     <div class="navigation-container">
+        <div class="navigation-bg-container">
+            <div class="navigation-bg navigation-left"></div>
+            <div class="navigation-bg navigation-right"></div>
+        </div>
+        <div class="clr"></div>
         <div class="navigation"></div>
     </div>
     <div id="content">

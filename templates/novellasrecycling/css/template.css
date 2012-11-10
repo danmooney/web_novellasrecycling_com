@@ -250,6 +250,7 @@ img#bg-body {
 
 #content {
     padding-bottom: 60px;
+    margin-top: 20px;
 }
 
 #content h1 {
@@ -353,15 +354,20 @@ div.carousel-container .bg-shadow.bg-shadow-bottom {
     text-align: center;
     margin-left: -50px;
     width: 960px;
+    height: 38px;
+    position: relative;
 }
 
 .navigation {
     display: inline-block;
+    margin-top: 19px;
+    position: relative;
+    z-index: 2;
 }
 
 .navigation .circle {
     background: url(../img/button_carousel_nav.png) no-repeat;
-    width:15px;
+    width: 15px;
     height: 15px;
     float: left;
     cursor: pointer;
@@ -370,5 +376,25 @@ div.carousel-container .bg-shadow.bg-shadow-bottom {
 
 .navigation .circle.active {
     background-image: url(../img/button_carousel_nav_active.png);
+}
 
+.navigation-bg-container {
+    width: 882px;
+    position: absolute;
+    top: 25px;
+    left: 42px;
+}
+
+.navigation-bg {
+    background: url(../img/bg_nav_carousel.png) no-repeat;
+    width: 350px;
+    height: 2px;
+}
+
+.navigation-bg.navigation-left {
+    float: left;
+}
+
+.navigation-bg.navigation-right {
+    float: right;
 }
