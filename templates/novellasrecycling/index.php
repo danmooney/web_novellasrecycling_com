@@ -8,6 +8,7 @@
     <script src="templates/<?= $this->template ?>/js/jquery.anythingslider-1.8.6-min.js"></script>
     <jdoc:include type="head" />
     <link rel="stylesheet" type="text/css" href="templates/<?= $this->template ?>/css/template.css" />
+    <link rel="shortcut icon" href="templates/<?= $this->template ?>/favicon.ico" />
 </head>
 <body>
 <div id="bg-body-container" unselectable="on">
