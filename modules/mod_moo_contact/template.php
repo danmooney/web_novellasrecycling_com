@@ -90,8 +90,8 @@ class ModContactTemplate extends ModContact
         $mailer =& JFactory::getMailer();
         $config =& JFactory::getConfig();
         $sender = array( 
-            $config->getValue('config.mailfrom'),
-            $config->getValue('config.fromname')
+            $config->getValue('contact@novellasrecycling.com'),
+            $config->getValue('Novella\'s Recycling')
         );
         $mailer->setSender($sender);
         $mailer->addRecipient($params->email_to);
