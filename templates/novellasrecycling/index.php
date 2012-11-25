@@ -41,7 +41,7 @@
         <div class="bg-shadow bg-shadow-bottom"></div>
         <ul class="carousel">
             <li>
-                <img src="templates/<?= $this->template ?>/img/carousel/1.jpg" />
+                <img src="templates/<?= $this->template ?>/img/carousel/4.jpg" />
             </li>
             <li>
                 <img src="templates/<?= $this->template ?>/img/carousel/2.jpg" />
@@ -50,7 +50,7 @@
                 <img src="templates/<?= $this->template ?>/img/carousel/aluminum_scraps.jpg" />
             </li>
             <li>
-                <img src="templates/<?= $this->template ?>/img/carousel/4.jpg" />
+                <img src="templates/<?= $this->template ?>/img/carousel/1.jpg" />
             </li>
         </ul>
     </div>

@@ -367,6 +367,19 @@ div.carousel-container {
     overflow: hidden;
 }
 
+div.carousel-container .anythingSlider[style],
+div.carousel-container .anythingSlider .carousel
+{
+    width: 960px;
+    height: 473px;
+}
+
+div.carousel-container .anythingControls[style],
+div.carousel-container .arrow[style]
+{
+    display: none !important;
+}
+
 div.carousel-container .bg-shadow {
     position: absolute;
     background-repeat: repeat-x;
